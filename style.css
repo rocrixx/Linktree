@@ -31,10 +31,10 @@ body {
 }
 /*background resumido*/
 #container {
-  width: 100%px;
+  width: 100%;
   max-width: 588px;
-  margin: 56px auto 0px;
-  padding: 0 24px;
+  margin: auto;
+  padding: 56px 24px;
 }
 #profile {
   text-align: center;
@@ -106,13 +106,13 @@ ul li a:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
 }
-#social-links {
+#s-lk {
   display: flex;
   padding: 24px 0;
   font-size: 24px;
   justify-content: center;
 }
-#social-links a {
+#s-lk  a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,7 +120,7 @@ ul li a:hover {
   transition: background 0.2s;
   border-radius: 50%;
 }
-#social-links a:hover {
+#s-lk a:hover {
   background: var(--socialhover-color);
 }
 footer {
